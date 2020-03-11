@@ -1,23 +1,6 @@
 {
     "EdgeGallery": {
         "git": [
-            "https://github.com/EdgeGallery/appstore-fe",
-            "https://github.com/EdgeGallery/appstore-be",
-            "https://github.com/EdgeGallery/developer-fe",
-            "https://github.com/EdgeGallery/developer-be",
-            "https://github.com/EdgeGallery/user-mgmt",
-            "https://github.com/EdgeGallery/mep",
-            "https://github.com/EdgeGallery/mep-agent",
-            "https://github.com/EdgeGallery/mecm-meo-fe",
-            "https://github.com/EdgeGallery/mecm-meo-be",
-            "https://github.com/EdgeGallery/mecm-esr",
-            "https://github.com/EdgeGallery/mecm-applcm",
-            "https://github.com/EdgeGallery/mecm-catalog",
-            "https://github.com/EdgeGallery/toolchain",
-            "https://github.com/EdgeGallery/integration-testing",
-            "https://github.com/EdgeGallery/commoncbb",
-            "https://github.com/EdgeGallery/edge-server",
-            "https://github.com/EdgeGallery/example-app",
             "https://github.com/EdgeGallery/infra"
         ],
         "github": [
@@ -69,6 +52,9 @@
             "edgegallery policy-apex-pdp",
             "edgegallery toolchain",
             "edgegallery porting-centos"
+        ],
+        "jenkins": [
+            "http://119.8.34.36:8080"
         ]
     }
 }
