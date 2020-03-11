@@ -17,7 +17,8 @@
             "https://github.com/EdgeGallery/integration-testing",
             "https://github.com/EdgeGallery/commoncbb",
             "https://github.com/EdgeGallery/edge-server",
-            "https://github.com/EdgeGallery/example-app"
+            "https://github.com/EdgeGallery/example-app",
+            "https://github.com/EdgeGallery/infra"
         ],
         "github": [
             "https://github.com/EdgeGallery/appstore-fe",
@@ -36,7 +37,8 @@
             "https://github.com/EdgeGallery/integration-testing",
             "https://github.com/EdgeGallery/commoncbb",
             "https://github.com/EdgeGallery/edge-server",
-            "https://github.com/EdgeGallery/example-app"
+            "https://github.com/EdgeGallery/example-app",
+            "https://github.com/EdgeGallery/infra"
         ],
         "dockerhub": [
             "edgegallery appstore-fe",
