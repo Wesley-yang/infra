@@ -51,7 +51,7 @@ services:
         - configs/aliases.json:/home/bitergia/conf/aliases.json
         - configs/projects.json:/home/bitergia/conf/projects.json
         - configs/organizations.json:/home/bitergia/conf/organizations.json
-        - configs/identities.yml:/home/bitergia/conf/identities.yml
+        - configs/identities.yaml:/home/bitergia/conf/identities.yml
         - /tmp/:/home/bitergia/logs
       links:
         - redis
