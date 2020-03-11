@@ -1,2 +1,2 @@
 # infra
-Infrastructure for the EdgeGallery project. 
+This repository contains tools and configuration files for the infrastructure of the EdgeGallery project.
