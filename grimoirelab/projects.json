@@ -40,6 +40,9 @@
             "https://github.com/EdgeGallery/example-app",
             "https://github.com/EdgeGallery/infra"
         ],
+        "confluence": [
+                "https://edgegallery.atlassian.net/wiki"
+        ],
         "dockerhub": [
             "edgegallery appstore-fe",
             "edgegallery appstore-be",
