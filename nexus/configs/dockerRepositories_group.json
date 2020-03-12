@@ -1,0 +1,5 @@
+{
+    "name": "dockerRepositories_group",
+    "content": "repository.createDockerGroup('mec-app', 8083, null, ['mec-app-hosted', 'mec-app-proxy'], true, 'default', false)",
+    "type": "groovy"
+}
