@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: repo-nexus
+  name: repo-nexus
+  namespace: repo-nexus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: repo-nexus
+  template:
+    metadata:
+      labels:
+        app: repo-nexus
+    spec:
+      containers:
+        - name: repo-nexus
+          image: sonatype/nexus3:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+          - containerPort: 8081
+            protocol: TCP
+          - containerPort: 8082
+            protocol: TCP
+          - containerPort: 8083
+            protocol: TCP
+          volumeMounts:
+          - name: repo-nexus-data
+            mountPath: /nexus-data
+      volumes:
+        - name: repo-nexus-data
+          persistentVolumeClaim:
+            claimName: repo-nexus-pvc
