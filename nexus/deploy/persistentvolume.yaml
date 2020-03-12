@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: repo-nexus-pv
+  labels:
+    type: local
+spec:
+  storageClassName: standard
+  capacity:
+    storage: 200Gi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/etc/nexus-data"
