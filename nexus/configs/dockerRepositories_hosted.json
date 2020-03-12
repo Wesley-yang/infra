@@ -1,0 +1,5 @@
+{
+    "name": "dockerRepositories_hosted",
+    "content": "repository.createDockerHosted('mec-app-hosted', 8082, null, 'default', true, true, org.sonatype.nexus.repository.storage.WritePolicy.ALLOW, false)",
+    "type": "groovy"
+}
