@@ -72,6 +72,9 @@
             "edgegallery toolchain",
             "edgegallery porting-centos"
         ],
+        "jira": [
+            "https://edgegallery.atlassian.net"
+        ],
         "jenkins": [
             "http://119.8.34.36:8080"
         ]
