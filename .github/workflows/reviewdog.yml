@@ -1,11 +1,9 @@
+---
 name: reviewdog
 
-# Controls when the action will run. Triggers the workflow on pull request 
 on: [pull_request]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "runner / misspell"
   misspell:
     name: runner / misspell
     runs-on: ubuntu-latest
@@ -16,9 +14,9 @@ jobs:
         uses: reviewdog/action-misspell@v1
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review
+          reporter: github-pr-check
           locale: "US"
-  
+
   shellcheck:
     name: runner / shellcheck
     runs-on: ubuntu-latest
@@ -28,8 +26,8 @@ jobs:
         uses: reviewdog/action-shellcheck@v1
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review
-  
+          reporter: github-pr-check
+
   yamllint:
     name: runner / yamllint
     runs-on: ubuntu-latest
@@ -39,8 +37,8 @@ jobs:
         uses: reviewdog/action-yamllint@v1
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review
-    
+          reporter: github-pr-check
+
   hadolint:
     name: runner / hadolint
     runs-on: ubuntu-latest
@@ -51,4 +49,4 @@ jobs:
         uses: reviewdog/action-hadolint@v1
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review
+          reporter: github-pr-check
