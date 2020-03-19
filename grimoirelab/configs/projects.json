@@ -17,7 +17,7 @@
             "https://github.com/EdgeGallery/toolchain",
             "https://github.com/EdgeGallery/integration-testing",
             "https://github.com/EdgeGallery/commoncbb",
-            "https://github.com/EdgeGallery/edge-server",
+            "https://github.com/EdgeGallery/website-gateway",
             "https://github.com/EdgeGallery/example-app",
             "https://github.com/EdgeGallery/infra"
         ],
@@ -38,7 +38,7 @@
             "https://github.com/EdgeGallery/toolchain",
             "https://github.com/EdgeGallery/integration-testing",
             "https://github.com/EdgeGallery/commoncbb",
-            "https://github.com/EdgeGallery/edge-server",
+            "https://github.com/EdgeGallery/website-gateway",
             "https://github.com/EdgeGallery/example-app",
             "https://github.com/EdgeGallery/infra"
         ],
@@ -64,7 +64,6 @@
             "edgegallery user-mgmt-postgresql",
             "edgegallery mep",
             "edgegallery mep-agent",
-            "edgegallery edge-server",
             "edgegallery website-gateway",
             "edgegallery service-center",
             "edgegallery mariadb",
