@@ -9,7 +9,6 @@ EdgeGallery Infrastructure
 ==========================
 
 .. toctree::
-   :numbered:
    :maxdepth: 2
 
    release/release-notes/index
