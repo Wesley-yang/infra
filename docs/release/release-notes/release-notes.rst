@@ -11,3 +11,4 @@ Infrastructure Release Notes
 
 Overview
 ========
+Infrastructure for EdgeGallery Project
