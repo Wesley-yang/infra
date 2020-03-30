@@ -6,3 +6,17 @@
 
 ## Overview
 This repository contains tools and configuration files for the infrastructure of the EdgeGallery project.
+
+## Directory Structure Description
+```
+infra
+├───configs // Configuration files for various components used in EdgeGallery infrastructure
+│      
+├───docs // Documents for infra project
+│       
+├───grimoirelab // Configuration files for GrimoireLab
+│      
+├───nexus // Configuration files for Nexus Repository OSS
+│      
+└───tools // Useful scprit for various usage
+```
