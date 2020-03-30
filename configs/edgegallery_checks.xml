@@ -22,6 +22,7 @@
     EdgeGallery Java Style.
     EdgeGallery Java Style is a customized version of Google Java Style
     that can be found at https://google.github.io/styleguide/javaguide.html
+    This configuration file is compatible with checkstyle 8.29
     Modifications:
     Block indentation: +4 spaces
     Column limit: 120
