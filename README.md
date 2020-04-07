@@ -18,5 +18,5 @@ infra
 │      
 ├───nexus // Configuration files for Nexus Repository OSS
 │      
-└───tools // Useful scprit for various usage
+└───tools // Useful scprits for various usage
 ```
