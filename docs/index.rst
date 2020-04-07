@@ -2,7 +2,8 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) 2020 Huawei Technologies Co., Ltd.
 
-.. _infra:
+.. _infra-master:
+
 
 ==========================
 EdgeGallery Infrastructure
@@ -10,6 +11,8 @@ EdgeGallery Infrastructure
 
 .. toctree::
    :maxdepth: 2
+   :caption: Table of Contents
 
-   release/release-notes/index
-   release/user-guide/index
+   release/release-notes
+   user/user-guide
+   development/developer-guide
