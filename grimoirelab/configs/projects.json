@@ -21,7 +21,8 @@
             "https://github.com/EdgeGallery/website-gateway",
             "https://github.com/EdgeGallery/example-app",
             "https://github.com/EdgeGallery/infra",
-            "https://github.com/EdgeGallery/api-emulator"
+            "https://github.com/EdgeGallery/api-emulator",
+            "https://github.com/EdgeGallery/helm-charts"
         ],
         "github": [
             "https://github.com/EdgeGallery/appstore-fe",
