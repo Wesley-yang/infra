@@ -80,7 +80,7 @@
             "https://edgegallery.atlassian.net"
         ],
         "jenkins": [
-            "http://119.8.34.36:8080"
+            "http://jenkins.edgegallery.org"
         ]
     }
 }
