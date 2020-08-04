@@ -2,7 +2,7 @@
     "blacklisted_images": [], 
     "comment": "EdgeGallery Default bundle", 
     "description": "Default policy bundle for EdgeGallery. Mixture of light vulnerability checks, dockerfiles checks, and warning triggers for common best practices.", 
-    "id": "anchore_default_bundle", 
+    "id": "edgegallery_default_bundle", 
     "last_updated": 1548800235, 
     "mappings": [
         {
