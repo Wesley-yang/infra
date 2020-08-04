@@ -1,7 +1,7 @@
 {
     "blacklisted_images": [], 
     "comment": "EdgeGallery Default bundle", 
-    "description": "Default policy bundle for EdgeGallery. Mixture of light vulnerability checks, dockerfiles checks, and warning triggers for common best practices.", 
+    "description": "Default policy bundle for EdgeGallery. Mixture of vulnerability checks, dockerfiles checks, and warning triggers for common best practices.", 
     "id": "edgegallery_default_bundle", 
     "last_updated": 1548800235, 
     "mappings": [
@@ -77,12 +77,12 @@
                             "value": "all"
                         }, 
                         {
-                            "name": "severity_comparison", 
+                            "name": "cvss_v3_base_score_comparison", 
                             "value": ">="
                         }, 
                         {
-                            "name": "severity", 
-                            "value": "high"
+                            "name": "cvss_v3_base_score", 
+                            "value": "7.0"
                         },
                         {
                             "name": "fix_available", 
@@ -105,12 +105,12 @@
                             "value": "all"
                         }, 
                         {
-                            "name": "severity_comparison", 
+                            "name": "cvss_v3_base_score_comparison", 
                             "value": ">="
                         }, 
                         {
-                            "name": "severity", 
-                            "value": "medium"
+                            "name": "cvss_v3_base_score", 
+                            "value": "4.0"
                         }, 
                         {
                             "name": "vendor_only", 
