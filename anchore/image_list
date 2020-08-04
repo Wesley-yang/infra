@@ -1,3 +1,4 @@
 docker.io/edgegallery/mep:latest
 docker.io/edgegallery/mepauth:latest
 docker.io/edgegallery/mep-agent:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/api-integration-testing:latest
