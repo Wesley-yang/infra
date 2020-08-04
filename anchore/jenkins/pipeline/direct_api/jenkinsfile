@@ -34,7 +34,7 @@ pipeline {
         ANCHORE_ENGINE_POLICY_EVALUATION = "anchore_policy_evaluation_report.json"
         ANCHORE_ENGINE_CONTENT_PREFIX = "anchore_content_report_"
 
-        TAG_TO_BE_ANALYZED = "docker.io/library/alpine:latest"
+        TAG_TO_BE_ANALYZED = "docker.io/edgegallery/mep:latest"
       }
       steps {
         script {
