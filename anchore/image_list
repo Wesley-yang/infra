@@ -1,0 +1,4 @@
+docker.io/edgegallery/appstore-fe:latest
+docker.io/edgegallery/appstore-be:latest
+docker.io/edgegallery/developer-fe:latest
+docker.io/edgegallery/developer-be:latest
