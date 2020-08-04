@@ -87,10 +87,6 @@
                         {
                             "name": "fix_available", 
                             "value": "true"
-                        }, 
-                        {
-                            "name": "vendor_only", 
-                            "value": "true"
                         }
                     ], 
                     "trigger": "package"
@@ -111,10 +107,6 @@
                         {
                             "name": "cvss_v3_base_score", 
                             "value": "4.0"
-                        }, 
-                        {
-                            "name": "vendor_only", 
-                            "value": "true"
                         }
                     ], 
                     "trigger": "package"
