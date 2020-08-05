@@ -69,7 +69,7 @@
                 },
                 {
                     "action": "WARN", 
-                    "comment": "section", 
+                    "comment": "use COPY instead of ADD in Dockerfile", 
                     "gate": "dockerfile", 
                     "id": "e9eacc50-aaac-4241-95ac-790cf0be84da", 
                     "params": [
@@ -86,7 +86,7 @@
                 }, 
                 {
                     "action": "WARN", 
-                    "comment": "section 4.7", 
+                    "comment": "do not use update instructions alone in the Dockerfile", 
                     "gate": "dockerfile", 
                     "id": "2f87d4bf-e963-496a-8b3d-ff90bef46014", 
                     "params": [
@@ -107,7 +107,7 @@
                 }, 
                 {
                     "action": "WARN", 
-                    "comment": "section 4.7", 
+                    "comment": "do not use update instructions alone in the Dockerfile", 
                     "gate": "dockerfile", 
                     "id": "ea1b1c11-0633-48cc-8afc-92b252f331b3", 
                     "params": [
@@ -128,7 +128,7 @@
                 }, 
                 {
                     "action": "WARN", 
-                    "comment": "section 4.7", 
+                    "comment": "do not use update instructions alone in the Dockerfile", 
                     "gate": "dockerfile", 
                     "id": "c5dbe7b8-b48b-4845-beff-069421d9d1ba", 
                     "params": [
@@ -216,7 +216,8 @@
                     "trigger": "package"
                 },
                 {
-                    "action": "STOP", 
+                    "action": "STOP",
+                    "comment": "run Docker container as a non-root user", 
                     "gate": "dockerfile", 
                     "id": "20a32af4-5c16-487f-8c67-212ff2bc2d11", 
                     "params": [
@@ -248,7 +249,8 @@
                     "trigger": "exposed_ports"
                 }, 
                 {
-                    "action": "WARN", 
+                    "action": "WARN",
+                    "comment": "add HEALTHCHECK instruction to the container image", 
                     "gate": "dockerfile", 
                     "id": "312d9e41-1c05-4e2f-ad89-b7d34b0855bb", 
                     "params": [
