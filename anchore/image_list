@@ -19,7 +19,6 @@ swr.ap-southeast-1.myhuaweicloud.com/edgegallery/bpmn-infra-x86:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/catalog-db-adapter:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/catalog-db-adapter-arm64:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/catalog-db-adapter-x86:latest
-swr.ap-southeast-1.myhuaweicloud.com/edgegallery/developer-be:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/developer-be-arm64:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/developer-be-x86:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/developer-fe:latest
