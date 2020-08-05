@@ -57,6 +57,5 @@ swr.ap-southeast-1.myhuaweicloud.com/edgegallery/tool-chain-x86:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/user-mgmt:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/user-mgmt-arm64:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/user-mgmt-x86:latest
-swr.ap-southeast-1.myhuaweicloud.com/edgegallery/website-gateway:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/website-gateway-arm64:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/website-gateway-x86:latest
