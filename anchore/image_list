@@ -41,7 +41,6 @@ swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mecm-fe-x86:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mecm-helm-plugin:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mecm-helm-plugin-arm64:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mecm-helm-plugin-x86:latest
-swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mecm-meo-fe:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent:latest
 swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent-arm64:latest
