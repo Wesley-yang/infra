@@ -83,10 +83,6 @@
                         {
                             "name": "cvss_v3_base_score", 
                             "value": "7.0"
-                        },
-                        {
-                            "name": "fix_available", 
-                            "value": "true"
                         }
                     ], 
                     "trigger": "package"
@@ -103,6 +99,34 @@
                         {
                             "name": "cvss_v3_base_score_comparison", 
                             "value": ">="
+                        }, 
+                        {
+                            "name": "cvss_v3_base_score", 
+                            "value": "4.0"
+                        },
+                        {
+                            "name": "cvss_v3_base_score_comparison", 
+                            "value": "<"
+                        }, 
+                        {
+                            "name": "cvss_v3_base_score", 
+                            "value": "7.0"
+                        }
+                    ], 
+                    "trigger": "package"
+                },
+                {
+                    "action": "GO", 
+                    "gate": "vulnerabilities", 
+                    "id": "8f40ed34-0317-4804-9cdc-151183525f67", 
+                    "params": [
+                        {
+                            "name": "package_type", 
+                            "value": "all"
+                        }, 
+                        {
+                            "name": "cvss_v3_base_score_comparison", 
+                            "value": "<"
                         }, 
                         {
                             "name": "cvss_v3_base_score", 
