@@ -1,0 +1,6 @@
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent-arm64:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mep-agent-x86:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mepauth:latest
+swr.ap-southeast-1.myhuaweicloud.com/edgegallery/mepauth-arm64:latest
